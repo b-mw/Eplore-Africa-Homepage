@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(hsla(165, 2%, 33%, 0.6),hsla(165, 2%, 33%, 0.6)),url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    text-align: center;
+}
+.logo{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.menu-icon{
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+    }
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex: 50%;
+}
+.heading-1{
+    color: #fff;
+    font-size: 100px;
+}
+p{
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 22px;
+    padding: 12px 0;
+    font-family:'Times New Roman';
+    font-weight: bolder;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+.card1{
+    background-image: url(images/kilipeaks.jpg);
+}
+.card2{
+    background-image: url(images/wildbeast.jpg);
+}
+.card3{
+    background-image: url(images/kruger.jpg);
+}
+.card4{
+    background-image: url(images/seychelles.jpg);
+}
+.card:hover{
+    transform: translate(-10px);
+}
+.card p{
+    text-shadow: 0 0 ;
+}
+h5{
+    font-size: 19px;
+}
