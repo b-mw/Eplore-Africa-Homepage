@@ -109,3 +109,16 @@ button{
 h5{
     font-size: 19px;
 }
+.date-time {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #date {
+    float: left;
+  }
+  
+  #time {
+    float: right;
+  }
+  
